@@ -4,7 +4,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
-  res.send('Hello mas bro from Node.js on Vercel!');
+  res.send('Selamat kode Node.js berhasil dijalankan di server Vercel!');
 });
 
 app.listen(port, () => {
